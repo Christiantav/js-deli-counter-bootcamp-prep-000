@@ -9,6 +9,7 @@ function currentLine(line) {
     }
     return `The line is currently:${lineOfPeople}`;
   }
+}
 
 function takeANumber(line,name) {
   line.push(name);                                                   //push puts the parameter name at the end of parameter line
